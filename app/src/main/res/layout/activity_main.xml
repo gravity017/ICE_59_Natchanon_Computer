@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="ice_pbru.dangchoung.natchanon.ice_59_natchanon_dangchoung.MainActivity"
+    android:background="@drawable/bg600">
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Computer"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me"
+        android:id="@+id/button"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:textColor="#000000"
+        android:background="#00ffffff" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/Computer"
+        android:layout_above="@+id/button"
+        android:layout_margin="20dp"
+        android:background="#6dffffff" />
+</RelativeLayout>
